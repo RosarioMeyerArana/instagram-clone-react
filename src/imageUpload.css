@@ -1,0 +1,24 @@
+.imageUploadContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fileUpload{
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.progressBar{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-upload{
+    margin-top: 16px;
+}
