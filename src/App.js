@@ -174,7 +174,7 @@ function App() {
 
       <Modal
           open={openSignIn}
-          // onClose={()=> setOpenSignIn(false)}
+          onClose={()=> setOpenSignIn(false)}
         >
           <div style={modalStyle} className={classes.paper}>
             <form className='signUp'>
