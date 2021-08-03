@@ -60,7 +60,7 @@ const ImageUpload = ({username, show, setShow}) => {
             <progress className='progressBar' value={progress} max='100' />
             <Input type='text'  placeholder='enter a caption...' value={caption} onChange={(e)=> setCaption(e.target.value)}/>
             <input type='file' className='fileUpload' onChange={handleChange}/>
-            <Button className='btn-upload' onClick={handleUpload}>Upload</Button>
+            <Button variant='contained' className='btn-upload' onClick={handleUpload}>Upload</Button>
         </div>
     )
 }

@@ -225,9 +225,7 @@ function App() {
           <Button onClick={()=> setOpen(true)}>Sign Up</Button> 
         </div>
       }
-      {/* { user?.displayName && <Button className='' variant='outlined'>Upload Photo </Button>
-      
-    } */}
+
       </div>
       
       {
